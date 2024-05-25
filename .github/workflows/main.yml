@@ -17,5 +17,4 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Run script.sh
-        run: bash ./script.sh
-        shell: bash
+        run: npm run deploy
