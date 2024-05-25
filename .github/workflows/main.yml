@@ -18,6 +18,5 @@ jobs:
 
       - name: Run script.sh
         run: |
-          cd remix-cf-pages
           npm uninstall -g @cloudflare/wrangler && npm install -g wrangler
           npm run deploy
